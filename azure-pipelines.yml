@@ -34,3 +34,5 @@ steps:
     ArtifactName: 'drop'
     publishLocation: 'Container'
   condition: succeededOrFailed()
+  
+- task: PublishBuildArtifacts@1
